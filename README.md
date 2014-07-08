@@ -65,7 +65,25 @@ UPDATED: Select Data> Import> Generic Wx> upload your .fw9 files.
 
 - If you have missing information you need to go to: http://www.raws.dri.edu/index.html to down load the missing data.  Select CA> select your RAWS site from the list to the left or select the station on the map> Select ‘Data Lister’ from the list on the left hand side of the screen> Specify the dates in which you are missing data > If you are downloading more than 30 days worth of data you need to enter in a password (for Southern CA, try contacting the San Luis Unit)> Save this as a .txt file to the appropriate folder.   
 
-In my case, there were so many non-consecutive missing dates that I downloaded data for the entire 10 years rather than many multiple single date files.  The directions that follow will explain how to edit and filter out only the records you need.     
+In my case, there were so many non-consecutive missing dates that I downloaded data for the entire 10 years rather than many multiple single date files.  The directions that follow will explain how to edit and filter out only the records you need. 
+
+- If you have only a few missing days here and there you can determine the SOW based on the days before and after it. If there is a missing SOW in the middle of July and the days that pre and proceed it are categorized as a '0' it is likely that it will also be classified as a '0' as well.  
+
+###State of the Weather###
+
+|Code |   State of the Weather 
+|---------------|----------------
+|0              | Clear, less than 1/10 cloud cover        
+|1              | Scattered clouds, 1/10-5,10 cloud cover   
+|2              | Broken clouds, 6/10-9/10 cloud cover      
+|3              | Overcast, 10/10 cloud cover       
+|4              | Fog
+|5              | Drizzle 
+|6              | Rain        
+|7              | Snow or sleet 
+|8              | Showers
+|9              | Thunderstorms  
+
 
 **4.	Editing Weather data**
 
