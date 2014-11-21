@@ -18,7 +18,7 @@ source: http://fam.nwcg.gov/fam-web/pocketcards/master_gaining.pdf
 
 ##Example FDOP's  
 
-CAL FIRE SLU/San Luis Obispo County Fire http://slu.s3.amazonaws.com/FDOP/FDOP_2013_FinalProduct.pdf  
+CAL FIRE SLU/San Luis Obispo County Fire https://dl.dropboxusercontent.com/u/345322813/docs/FDOP_2013_FinalProduct.pdf  
 
 
 ##Creating an FDOP
