@@ -320,8 +320,7 @@ Under the ‘Fire Danger Area’ enter in the region (i.e. coastal or inland), t
 - Run the above statistical graphics to produce new charts.  These charts shouldn’t change too drastically unless there were exceptionally large or small fires, or drastically hot or cold days.  
     - Fire Occurrence Graphs will need to be updated.  All descriptive text and percentages need to be adjusted accordingly.  
 - Climatology Graphs of Temperature and Rainfall.  These can be obtained from:
-    - [Arroyo Grande Weather](http://www.weather.com/weather/wxclimatology/monthly/graph/USCA0045)
-    - [Paso Robles Weather](http://www.weather.com/weather/wxclimatology/monthly/graph/USCA0842)
+    - Use http://www.ncdc.noaa.gov/cdo-web/datatools/normals, Paso Robles for inland and San Luis Obispo for coastal
 
 -  Tables in the FDOP that may need to be updated depending on new data include: 
     - 10 Largest Fires Recorded in the Inland FDR
