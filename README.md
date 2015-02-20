@@ -52,7 +52,7 @@ Select Weather> Station Catalog> Station Information> Select ‘Single Station�
 
 https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
-- Select Weather> Data Extract> Historical> Enter in Station ID and date range> Select ‘Raw Datafile – 1998 Data Format> Save .fw9 file to appropriate folder
+- Select Weather> Data Extract> Historical> Enter in Station ID and date range> Select ‘Raw Datafile – 1998 Data Format> Save .fw9 file to appropriate folder. The file can be downloaded from either http://fam.nwcg.gov/fam-web/kcfast/batchout/?M=D or ftp://ftp2.fs.fed.us/incoming/wo_fam
 
 **2.	Importing the  Weather Data:**
 
