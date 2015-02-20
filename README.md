@@ -41,8 +41,8 @@ Select Weather> Station Catalog> Station Information> Select ‘Single Station�
 
 **2.	Importing the Station Catalog:**
 
-- On the Data Menu> Select Import> Select WIMS Station Catalogs> Select the appropriate .txt file> 
-- From the data Menu> Select Stations> This will show you which stations are available for you to work with in the data base and you should see the station catalog you have just imported.  From this screen you can highlight your station and select ‘Edit’.  This will show you all the attributes of your station.
+- On the Data menu> Select Import> Select WIMS Station Catalogs> Select the appropriate .txt file> 
+- From the Data menu> Select Stations> This will show you which stations are available for you to work with in the data base and you should see the station catalog you have just imported.  From this screen you can highlight your station and select ‘Edit’.  This will show you all the attributes of your station.
     - **(You should make note of the USFS region – you will need to know that value for when you download your fire data).**     
 - In your working set dialog box under ‘SIG/Station’> Select your station from the drop down menu. 
 
