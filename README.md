@@ -266,7 +266,7 @@ NOTE: These graphs need to be based on the entire calendar year
 ---
 Staffing Level is an important component of the Adjective Fire Danger Rating and is calculated in WIMS.  It is a way for us to break up the BI continuum based on percentile to make it more useful.  Staffing level, along with Ignition Component, is a way for describe relative fire risk. 
 
-Staffing Level will be determined using fuel model G for the San Luis Obispo Unit. This is determined by running different fuel models against fire and weather history data.  When running the different fuel models with your data you should choose the fuel model that yields the ideal statistical output. The ideal statistical output includes a BI of at least 100, all graphs should be a bell curve, the data should have a linear distribution across the spectrum, and no graphs should be inverted.  If you find a fuel model that yields these results, it means that fuel model is the best for fit for your data set and should be the fuel model you should used in the analysis of staffing level. In this analysis, fuel model G (which also happens to be the standard fuel model) was determined to be the best fit for the data set. 
+Staffing Level will be determined using fuel model G for the San Luis Obispo Unit. This is determined by running different fuel models against fire and weather history data.  When running the different fuel models with your data you should choose the fuel model that yields the ideal statistical output(for help use https://drive.google.com/open?id=0B0sQSFJnE_7URk9YcHJUV2xZUk0 ). The ideal statistical output includes a BI of at least 100, all graphs should be a bell curve, the data should have a linear distribution across the spectrum, and no graphs should be inverted.  If you find a fuel model that yields these results, it means that fuel model is the best for fit for your data set and should be the fuel model you should used in the analysis of staffing level. In this analysis, fuel model G (which also happens to be the standard fuel model) was determined to be the best fit for the data set. 
 
 - Select the appropriate ‘SIG/Station’ , ‘Data years’, ‘Annual Filter’: May 1 – Oct 31 > Select ‘Fires’ > ‘Fire Analysis’> Select: Large Fire (Acres):8, Multi Dire Dat (Fires): 3, Select ‘BI’ from the drop down, check the box for ‘Conditional Probability Analysis-FireDays Only>  ‘OK’> Select the ‘Fires Probability Analysis’ Window> Select ‘View’ > ‘Decision Points’>  close the ‘Class Lower Limits” Window  
 - The default ‘Class BI Ranges’ will be the values entered into the “Staffing Level: Break Points chart”.  Round the Values for the chart.
@@ -283,7 +283,7 @@ The point at which large fires start to take off based on ERC.
 -	In the ERC Percentile Graph the threshold line should be drawn a the point in which the large fire data starts to rapidly increase. 
 -	In the ERC Probability Graph directly below, the threshold line should be drawn through the data point that you clicked before, which is the point at which large fires start to increase. 
 -	If the threshold line is not drawn at the necessary position on the graphs adjust the threshold value in the ‘Class Lower Limits’ window to determine the appropriate preparedness threshold value.
-- Complete this process for both FDRAs and record the appropriate threshold value in the Preparedness Level chart. 
+- Complete this process for all FDRAs and record the appropriate threshold value in the Preparedness Level chart. 
 
 ###Pocket Cards###
 ---
@@ -328,7 +328,7 @@ Under the ‘Fire Danger Area’ enter in the region (i.e. coastal or inland), t
 ###Updating the FDOP Annually###
 ---
 
-- Enter in all fire and weather records for the past year
+- Enter in all fire and weather records for the past year to your master data & master weather spreadsheets.
 - Run the above statistical graphics to produce new charts.  These charts shouldn’t change too drastically unless there were exceptionally large or small fires, or drastically hot or cold days.  
     - Fire Occurrence Graphs will need to be updated.  All descriptive text and percentages need to be adjusted accordingly.  
 - Climatology Graphs of Temperature and Rainfall.  These can be obtained from:
