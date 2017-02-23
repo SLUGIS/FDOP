@@ -369,7 +369,7 @@ Under the ‘Fire Danger Area’ enter in the region (i.e. coastal or inland), t
 |4              | Smoking        |3                 |
 |5              | Debris Burning |5                 |
 |6              | Arson          |7                 |
-|7              | Equiptment Use |2                 |
+|7              | Equipment Use  |2                 |
 |8              | Playing w/ Fire|8                 |
 |9              | Miscellaneous  |9                 |
 |10             | Vehicle        |2                 |
