@@ -17,7 +17,7 @@ levels, and indexes used for each); operational procedures; and Fire Danger Pock
 source: http://fam.nwcg.gov/fam-web/pocketcards/master_gaining.pdf
 
 ##Example FDOP's  
-CAL FIRE SLU/San Luis Obispo County Fire http://slugis.duckdns.org/files/FDOP_2013_FinalProduct.pdf  
+CAL FIRE SLU/San Luis Obispo County Fire http://calfireslo.org/Documents/Plans/FDOP/FDOP.pdf  
 
 
 ##Creating an FDOP
@@ -25,10 +25,12 @@ CAL FIRE SLU/San Luis Obispo County Fire http://slugis.duckdns.org/files/FDOP_20
 ---
 **1.	Download FireFamilyPlus from:**
 
-http://www.firemodels.org/index.php/firefamilyplus-software/firefamilyplus-downloads
+https://www.firelab.org/document/firefamilyplus-software
+
+NOTE: As of 02/23/2017 version 4.2 is current.  Keep in mind that databases made on later versions will have problems when loading into newer versions.
 
 **2.	Create a Database:**
-File> New> Name your Database and save it to an appropriate location> Give it a description.
+File> New> Name your Database and save it to an appropriate location> Give it a description.  Save backup databases periodically.
 
 ###Station Catalog###
 ---
@@ -246,7 +248,9 @@ For each FDRA the thresholds need to be determined.  The program will do this fo
 
 - Decision points should be set using BI or ERC depending on the best indicator for your station/SIG (refer to FFP_Analysis tool spreadsheet https://drive.google.com/open?id=0B0sQSFJnE_7URk9YcHJUV2xZUk0 ). 
     - Select the ‘A’ on the ribbon at the top of the screen> run the operation with default values selected> Click on the ‘Fires Probability Analysis’ Window> Select ‘View’> ‘Decision Points’> Delete 2 records so you are left with 3 classes
-    - Set the first class to 0, set the second class to the value at which fires begin to take off.  Visually, this is when there appears to be a large jump from low to high.  The last class should be set at the BI/ERC value where the crest of the graph is no longer in a drastic incline and starts to plateau. The second decision class created should hold the greatest number of fires whereas the first and last should contain the least amount of fire occurrence (refer to this example for general trends https://drive.google.com/open?id=0B0sQSFJnE_7UeWF2TmR2NXlCTzA )
+    - Set the first class to 0, set the second class to the value at which fires begin to take off.  Visually, this is when there appears to be a large jump from low to high.  The last class should be set at the BI/ERC value where the crest of the graph is no longer in a drastic incline and starts to plateau. The second decision class created should hold the greatest number of fires whereas the first and last should contain the least amount of fire occurrence (refer to this example for general trends https://drive.google.com/open?id=0B0sQSFJnE_7UeWF2TmR2NXlCTzA )  For SLU, by FDRA we determined best fit with;
+    					Coastal: Fuel Model U, Low:0-24 Medium:24-33 High:33+
+					Indland: Fuel Model G, Low:0-49 Medium:49-73 High:73+
     - When these levels have been adjusted to accommodate the fire data select ‘Apply’> Adjust the screen so that all graphs fit appropriately>Screen shot and insert into the FDOP. 
     - Adjust the ‘Dispatch Level: Fire Family Plus Analysis Factors and Determinations’ Table (Specifically, the ‘Index Break Points’ section).  
 NOTE: All Decision Point graphs need to be based on Fire season (May1-Oct 31), not the calendar year.
@@ -255,6 +259,9 @@ NOTE: All Decision Point graphs need to be based on Fire season (May1-Oct 31), n
 
 NOTE: These graphs need to be based on the entire calendar year
 -  (need to add instructions on this process)
+-  For SLU, by FDRA we determined best fit with;
+			Coastal:Fuel Model A with ERC
+			Inland: Fuel Model N with ERC
 
 **6.	When updating numbers and percent values in FDOP**
 
