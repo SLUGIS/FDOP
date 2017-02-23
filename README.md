@@ -18,6 +18,7 @@ source: http://fam.nwcg.gov/fam-web/pocketcards/master_gaining.pdf
 
 ##Example FDOP's  
 CAL FIRE SLU/San Luis Obispo County Fire http://calfireslo.org/Documents/Plans/FDOP/FDOP.pdf  
+Northern Utah Interagency https://gacc.nifc.gov/gbcc/dispatch/ut-nuc/management/docs/FDOP_NUtah_FDOP_2012.pdf
 
 
 ##Creating an FDOP
@@ -49,6 +50,8 @@ Select Weather> Station Catalog> Station Information> Select ‘Single Station�
 
 ###Weather###
 ---
+NOTE: It is helpful to create and maintain a running master spreadsheet for current and future weather exports.
+
 **1.	Download weather data from:**
 
 https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
@@ -126,7 +129,9 @@ In my case, there were so many non-consecutive missing dates that I downloaded d
 ###Fire###
 ---
 
+NOTE: It is helpful to create and maintain a running master spreadsheet for current and future fire exports.
 NOTE: There are a number of ways to acquire your fire data, we have listed a few options below.
+
 **1.	Download fire data from:**  
 
 https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
@@ -136,13 +141,13 @@ Select Fire> Standard Extract> Enter in Region/Forest and date range
 OR
 
 
-**1.2.	Obtain LE-66 Data**
+**2.	Obtain LE-66 Data**
 
 - Create an excel spread sheet for your 10 years worth of data.
 - The LE-66 data is stored in on the (F:) drive so you need to be connected to the VPN in order to get access. 
 	_(F:)>data>prevent>Prevention>STATS3421_
 
-**1.3.	Preparing LE-66 Data**
+**2.1.	Preparing LE-66 Data**
 
 - Create columns for date, incident number, cause, comments, latitude, longitude and copy and populate the fields. 
 - Save this file as a .txt for import. 
@@ -157,7 +162,7 @@ I created another spread sheet in order to edit just the data from 2009-2012.
 	_(F:)>data>prevent>Prevention>STATS3421>log cover causes.doc_
 when performing your filter to find and replace the cause variables. 
 
-**1.4.	Additional Editing for LE-66 Data**
+**2.2.	Additional Editing for LE-66 Data**
 
 If you do not need your lat and long data to be in DD, then disregard the following instructions..
 
@@ -177,7 +182,7 @@ Once all the data has been converted to DD I made sure that all the Longitude va
 
 OR
 
-**2.	Using Fire Reports**
+**3.	Using Fire Reports**
 
 - Using Internet Explorer go to:
 [WebRPTSite](http://webrpt.fire.ca.gov/InfoViewApp/logon.aspx)
@@ -186,7 +191,7 @@ OR
 - Enter in YYYY###### to look up each individual fire report. Verify date, author, lat, and long.
 - Save as a .csv for import.
 
-**3.	Populating the ‘SubUnit’ Field**
+**4.	Populating the ‘SubUnit’ Field**
 
 - Export your fire data from FF+ as a shapefile. Be sure to include ‘SubUnit’ as a field during export. Import your ignition and FDRA .shps into arc. > Open the Ignition attributes table and create a text field called ‘SubUnit’ > In the ‘Select’ menu chose ‘Select by Location’.
     - I want to: ‘select features from’
@@ -201,7 +206,7 @@ Save all edits and close editing session.
 
 - Open your CSV. If your date appear to be ######## right click on the DiscoveryDate column and select ‘Format Cells’. Select ‘date’ from the menu on the left. Select the default date format (##/##/####). Save the csv. 
 
-**4.	Importing Fire Data**
+**5.	Importing Fire Data**
 
 - In FF+, From the Data Menu> import>Select from drop down menu ‘USFS’> Select ‘Raw Files’> Select your .raw file
 MUST BE IN THIS ORDER!!!!
