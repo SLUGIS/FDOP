@@ -130,18 +130,16 @@ https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
 Select Fire> Standard Extract> Enter in Region/Forest and date range
 
-**2.	Importing Fire Data**
+OR
 
-- From the Data Menu> import>Select from drop down menu ‘USFS’> Select ‘Raw Files’> Select your .raw file
-    - Region; Unit; Discovery Date; Fire Number; Acerage; Fire Name; Cause; Latitude; Longitude
 
-**3.	Obtain LE-66 Data**
+**1.2.	Obtain LE-66 Data**
 
 - Create an excel spread sheet for your 10 years worth of data.
 - The LE-66 data is stored in on the (F:) drive so you need to be connected to the VPN in order to get access. 
 	_(F:)>data>prevent>Prevention>STATS3421_
 
-**4.	Preparing LE-66 Data**
+**1.3.	Preparing LE-66 Data**
 
 - Create columns for date, incident number, cause, comments, latitude, longitude and copy and populate the fields. 
 - Save this file as a .txt for import. 
@@ -156,7 +154,7 @@ I created another spread sheet in order to edit just the data from 2009-2012.
 	_(F:)>data>prevent>Prevention>STATS3421>log cover causes.doc_
 when performing your filter to find and replace the cause variables. 
 
-**5.	Additional Editing for LE-66 Data**
+**1.4.	Additional Editing for LE-66 Data**
 
 If you do not need your lat and long data to be in DD, then disregard the following instructions..
 
@@ -174,7 +172,9 @@ If you do not need your lat and long data to be in DD, then disregard the follow
 
 Once all the data has been converted to DD I made sure that all the Longitude values were (-). I then created final columns for both lat and long and copied and pasted only the values from my lat and long ‘working data’ columns into my lat and long ‘final data’.
 
-**6.	Using Fire Reports**
+OR
+
+**2.	Using Fire Reports**
 
 - Using Internet Explorer go to:
 [WebRPTSite](http://webrpt.fire.ca.gov/InfoViewApp/logon.aspx)
@@ -183,7 +183,7 @@ Once all the data has been converted to DD I made sure that all the Longitude va
 - Enter in YYYY###### to look up each individual fire report. Verify date, author, lat, and long.
 - Save as a .csv for import.
 
-**7.	Populating the ‘SubUnit’ Field**
+**3.	Populating the ‘SubUnit’ Field**
 
 - Export your fire data from FF+ as a shapefile. Be sure to include ‘SubUnit’ as a field during export. Import your ignition and FDRA .shps into arc. > Open the Ignition attributes table and create a text field called ‘SubUnit’ > In the ‘Select’ menu chose ‘Select by Location’.
     - I want to: ‘select features from’
@@ -197,6 +197,12 @@ Save all edits and close editing session.
 - Open the ignition shapefile in Quantum. Select the ‘Table Manager’ tab. Arrange the fields in the appropriate order (i.e. region, unit, discovery date, fire number, acreage, fire name, cause, lat, long, subunit) and delete any fields that have been created. Save this as a .csv. 
 
 - Open your CSV. If your date appear to be ######## right click on the DiscoveryDate column and select ‘Format Cells’. Select ‘date’ from the menu on the left. Select the default date format (##/##/####). Save the csv. 
+
+**4.	Importing Fire Data**
+
+- In FF+, From the Data Menu> import>Select from drop down menu ‘USFS’> Select ‘Raw Files’> Select your .raw file
+MUST BE IN THIS ORDER!!!!
+    - Region; Unit; Discovery Date; Fire Number; Acerage; Fire Name; Cause; Latitude; Longitude
 
 - Import your CSV back into FF+ and be sure to include ‘SubUnit’ at the end of your field items to import and also verify that the date format matches the format you adjusted your ‘DiscoveryDate’ values in the CSV.
 	
@@ -238,14 +244,19 @@ For each FDRA the thresholds need to be determined.  The program will do this fo
 
 **4.	Decision Points for Dispatch Level**
 
-- Decision points should be set using BI. 
+- Decision points should be set using BI or ERC depending on the best indicator for your station/SIG (refer to FFP_Analysis tool spreadsheet https://drive.google.com/open?id=0B0sQSFJnE_7URk9YcHJUV2xZUk0 ). 
     - Select the ‘A’ on the ribbon at the top of the screen> run the operation with default values selected> Click on the ‘Fires Probability Analysis’ Window> Select ‘View’> ‘Decision Points’> Delete 2 records so you are left with 3 classes
-    - Set the first class to 0, set the second class to the value at which fires begin to take off.  Visually, this is when there appears to be a large jump from low to high.  The last class should be set at the BI value where the crest of the graph is no longer in a drastic incline and starts to plateau. The second decision class created should hold the greatest number of fires whereas the first and last should contain the least amount of fire occurrence.  
+    - Set the first class to 0, set the second class to the value at which fires begin to take off.  Visually, this is when there appears to be a large jump from low to high.  The last class should be set at the BI/ERC value where the crest of the graph is no longer in a drastic incline and starts to plateau. The second decision class created should hold the greatest number of fires whereas the first and last should contain the least amount of fire occurrence (refer to this example for general trends https://drive.google.com/open?id=0B0sQSFJnE_7UeWF2TmR2NXlCTzA )
     - When these levels have been adjusted to accommodate the fire data select ‘Apply’> Adjust the screen so that all graphs fit appropriately>Screen shot and insert into the FDOP. 
     - Adjust the ‘Dispatch Level: Fire Family Plus Analysis Factors and Determinations’ Table (Specifically, the ‘Index Break Points’ section).  
 NOTE: All Decision Point graphs need to be based on Fire season (May1-Oct 31), not the calendar year.
 
-**5.	When updating numbers and percent values in FDOP**
+**5. 	Determining Start of Fire Season
+
+NOTE: These graphs need to be based on the entire calendar year
+-  (need to add instructions on this process)
+
+**6.	When updating numbers and percent values in FDOP**
 
 - Follow instructions to look at fire occurrence chart> Select ‘Options’> ‘View Graph Data’
 - This ‘Fire Occurrence Summary’ page will provide the exact values behind all the graphics illustrated for fire occurrence. 
