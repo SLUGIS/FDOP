@@ -126,6 +126,7 @@ In my case, there were so many non-consecutive missing dates that I downloaded d
 ###Fire###
 ---
 
+NOTE: There are a number of ways to acquire your fire data, we have listed a few options below.
 **1.	Download fire data from:**  
 
 https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
@@ -213,7 +214,8 @@ MUST BE IN THIS ORDER!!!!
 ---
 **1.	Fire Occurrence graphs**
 
-- One including All FDRAs: Coastal, Inland, and Ob.	Coasc.
+- One including All FDRAs: Coastal, Inland, and other
+- One each for specific FDRA's
     - ‘Fires’>’Summary’>’Working Set’>Select the ‘CAL FIRE’ Tab>Region ‘3RSS’> Unit ‘SLU San Luis Obispo’>Sub Unit ‘COASTAL Coastal’> ‘Ok’
 - Annual Filter should be set for the entire calendar year for these graphs. 
 - Screen Shot the graph and insert into FDOP
