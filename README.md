@@ -130,11 +130,12 @@ In my case, there were so many non-consecutive missing dates that I downloaded d
 ---
 
 NOTE: It is helpful to create and maintain a running master spreadsheet for current and future fire exports.
+
 NOTE: There are a number of ways to acquire your fire data, we have listed a few options below.
 
 **1.	Download & clean up fire data from:**  
 
-**a.  https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
+a.  https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
 Select Fire> Standard Extract> Enter in Region/Forest and date range
 
