@@ -132,22 +132,22 @@ In my case, there were so many non-consecutive missing dates that I downloaded d
 NOTE: It is helpful to create and maintain a running master spreadsheet for current and future fire exports.
 NOTE: There are a number of ways to acquire your fire data, we have listed a few options below.
 
-**1.	Download fire data from:**  
+**1.	Download & clean up fire data from:**  
 
-https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
+**a.  https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
 Select Fire> Standard Extract> Enter in Region/Forest and date range
 
-OR
+_______OR________
 
 
-**2.	Obtain LE-66 Data**
+**b.	Obtain LE-66 Data**
 
 - Create an excel spread sheet for your 10 years worth of data.
 - The LE-66 data is stored in on the (F:) drive so you need to be connected to the VPN in order to get access. 
 	_(F:)>data>prevent>Prevention>STATS3421_
 
-**2.1.	Preparing LE-66 Data**
+**b2.	Preparing LE-66 Data**
 
 - Create columns for date, incident number, cause, comments, latitude, longitude and copy and populate the fields. 
 - Save this file as a .txt for import. 
@@ -162,7 +162,7 @@ I created another spread sheet in order to edit just the data from 2009-2012.
 	_(F:)>data>prevent>Prevention>STATS3421>log cover causes.doc_
 when performing your filter to find and replace the cause variables. 
 
-**2.2.	Additional Editing for LE-66 Data**
+**b3.	Additional Editing for LE-66 Data**
 
 If you do not need your lat and long data to be in DD, then disregard the following instructions..
 
@@ -180,9 +180,9 @@ If you do not need your lat and long data to be in DD, then disregard the follow
 
 Once all the data has been converted to DD I made sure that all the Longitude values were (-). I then created final columns for both lat and long and copied and pasted only the values from my lat and long ‘working data’ columns into my lat and long ‘final data’.
 
-OR
+_______OR________
 
-**3.	Using Fire Reports**
+**c.	Using Fire Reports**
 
 - Using Internet Explorer go to:
 [WebRPTSite](http://webrpt.fire.ca.gov/InfoViewApp/logon.aspx)
@@ -191,7 +191,7 @@ OR
 - Enter in YYYY###### to look up each individual fire report. Verify date, author, lat, and long.
 - Save as a .csv for import.
 
-**4.	Populating the ‘SubUnit’ Field**
+**2.	Populating the ‘SubUnit’ Field**
 
 - Export your fire data from FF+ as a shapefile. Be sure to include ‘SubUnit’ as a field during export. Import your ignition and FDRA .shps into arc. > Open the Ignition attributes table and create a text field called ‘SubUnit’ > In the ‘Select’ menu chose ‘Select by Location’.
     - I want to: ‘select features from’
@@ -206,7 +206,7 @@ Save all edits and close editing session.
 
 - Open your CSV. If your date appear to be ######## right click on the DiscoveryDate column and select ‘Format Cells’. Select ‘date’ from the menu on the left. Select the default date format (##/##/####). Save the csv. 
 
-**5.	Importing Fire Data**
+**3.	Importing Fire Data**
 
 - In FF+, From the Data Menu> import>Select from drop down menu ‘USFS’> Select ‘Raw Files’> Select your .raw file
 MUST BE IN THIS ORDER!!!!
