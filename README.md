@@ -69,7 +69,7 @@ https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
 - Once you import your weather data> Select from the Weather Menu> ‘View Observations’> ‘Daily’> go through to look for missing SOW’s or missing records.  
 
-- If you have missing information you need to go to: http://www.raws.dri.edu/index.html to down load the missing data.  Select CA> select your RAWS site from the list to the left or select the station on the map> Select ‘Data Lister’ from the list on the left hand side of the screen> Specify the dates in which you are missing data > If you are downloading more than 30 days worth of data you need to enter in a password (for Southern CA, try contacting the San Luis Unit)> Save this as a .txt file to the appropriate folder.   
+- If you have missing information you need to go to: http://www.raws.dri.edu/index.html to down load the missing data.  Select CA> select your RAWS site from the list to the left or select the station on the map> Select ‘Data Lister’ from the list on the left hand side of the screen> Specify the dates in which you are missing data > If you are downloading more than 30 days worth of data you need to enter in a password (for Southern CA, try wrcc23)> Save this as a .txt file to the appropriate folder.   
 
 In my case, there were so many non-consecutive missing dates that I downloaded data for the entire 10 years rather than many multiple single date files.  The directions that follow will explain how to edit and filter out only the records you need. 
 
@@ -191,6 +191,8 @@ _______OR________
 - Navigate to: MyInbox> Public Folders> CAD Shared Reports> Click on the FC34 Reports> Select: FC34 Detail-All-Seg (Incident Number)
 - Enter in YYYY###### to look up each individual fire report. Verify date, author, lat, and long.
 - Save as a .csv for import.
+
+**d.	CAL FIRE Redbooks Online @ http://www.fire.ca.gov/fire_protection/fire_protection_fire_info_redbooks
 
 **2.	Populating the ‘SubUnit’ Field**
 
