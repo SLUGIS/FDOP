@@ -192,7 +192,9 @@ _______OR________
 - Enter in YYYY###### to look up each individual fire report. Verify date, author, lat, and long.
 - Save as a .csv for import.
 
-**d.	CAL FIRE Redbooks Online @ http://www.fire.ca.gov/fire_protection/fire_protection_fire_info_redbooks
+**d.	CAL FIRE Redbooks Online**
+
+- @ http://www.fire.ca.gov/fire_protection/fire_protection_fire_info_redbooks
 
 **2.	Populating the ‘SubUnit’ Field**
 
