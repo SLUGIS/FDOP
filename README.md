@@ -112,6 +112,7 @@ In my case, there were so many non-consecutive missing dates that I downloaded d
 **5.	Importing Edited Weather data**
 
 NOTE: Before import you must ensure your data fields are in the EXACT same order as you specify in FireFamilyPlus upon import.
+
 NOTE: Before import, ensure the 'station ID' has 6 characters (format so there is a leading zero).
 - From the Data Menu> Select ‘Import’> Select ‘New FW9 Files’> Select your .txt file> Import. 
 
