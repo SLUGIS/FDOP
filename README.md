@@ -238,7 +238,11 @@ All fire occurrence graphs need to be based on the entire calendar year.
 
 
 **2.	Determining Thresholds**  
-For each FDRA the thresholds need to be determined.  The program will do this for you however; you need to confirm that the default percentage values for the thresholds are indeed accurate after all climatology statistics graphs have been run.  The given percentages should coincide with the data output of the fire analysis.  
+For each FDRA the thresholds need to be determined.  The program will do this for you however; you need to confirm that the default percentage values for the thresholds are indeed accurate after all climatology statistics graphs have been run.  The given percentages should coincide with the data output of the fire analysis. 
+
+	- 'Fires'>'Fires Analysis'>Selecct desired options>'OK'
+ 	- Close out first window that opens, then the 'DP' buttom will appear on top toolbar, click this then choose class levels 
+	(some trial and error will happen to get your classes and percent days working well)
   
 **3.	Three indice graphs for each FDRA**
 
