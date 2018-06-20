@@ -219,7 +219,7 @@ Save all edits and close editing session.
 
 - In FF+, From the Data Menu> import>Select from drop down menu ‘USFS’> Select ‘Raw Files’> Select your .raw file
 MUST BE IN THIS ORDER!!!!
-    - Region; Unit; Discovery Date; Fire Number; Acerage; Fire Name; Cause; Latitude; Longitude
+    - Region ID; Unit ID; Discovery Date; Fire Number; Total Acres; Fire Name; Statistical Cause; Latitude; Longitude
 
 - Import your CSV back into FF+ and be sure to include ‘SubUnit’ at the end of your field items to import and also verify that the date format matches the format you adjusted your ‘DiscoveryDate’ values in the CSV.
 	
