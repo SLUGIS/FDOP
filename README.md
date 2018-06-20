@@ -56,14 +56,14 @@ NOTE: It is helpful to create and maintain a running master spreadsheet for curr
 
 https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
-- Select Weather> Data Extract> Historical> Enter in Station ID and date range> Select ‘Raw Datafile – 1998 Data Format> Save .fw9 file to appropriate folder. The file can be downloaded from either http://fam.nwcg.gov/fam-web/kcfast/batchout/?M=D or ftp://ftp2.fs.fed.us/incoming/wo_fam
-- UDATED FFP4.2: Select Weather > Data Extract> Historical> Enter Station ID and Date Range> Select Hourly> Run It Now> Save with 'Station#''Hourly'.fw13.
+- Select Weather> Data Extract> Historical> Enter in Station ID and date range> Select ‘Raw Datafile – 1998 Data Format> Save .fw9 file to appropriate folder. The file can be downloaded from either http://fam.nwcg.gov/fam-web/kcfast/batchout/?M=D or ftp://ftp2.fs.fed.us/incoming/wo_fam-
+- <b>UDATED</b> FFP4.2: Select Weather > Data Extract> Historical> Enter Station ID and Date Range> Select Hourly> Run It Now> Save with 'Station#''Hourly'.fw13.
 
 **2.	Importing the  Weather Data:**
 
 - From the Data Menu> Select Import> Select Old Wx Import> The Selected Fields should include: Station ID, Obs Date, Obs Time, Obs Type, OMC10, RH, and Windspeed> Select the StationID Box> Select Overwrite Duplicates.  
 - UPDATED: Select Data> Import> Generic Wx> upload your .fw9 files.
-- UPDATED FFP4.2: Select Data> Import> FW9/FW13 Files upload each stations .fw13.
+- <b>UPDATED FFP4.2</b>: Select Data> Import> FW9/FW13 Files upload each stations .fw13.
 
 **3.	Missing Records:**
 
