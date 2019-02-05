@@ -14,7 +14,9 @@ parties (e.g. station maintenance, data entry); fire danger rating areas (e.g. l
 criteria); NFDRS thresholds and breakpoints (e.g. staffing levels, adjective ratings, preparedness 
 levels, and indexes used for each); operational procedures; and Fire Danger PocketCards. 
 
-source: http://fam.nwcg.gov/fam-web/pocketcards/master_gaining.pdf
+###Sources: 
+http://fam.nwcg.gov/fam-web/pocketcards/master_gaining.pdf
+
 
 ##Example FDOP's  
 CAL FIRE SLU/San Luis Obispo County Fire http://calfireslo.org/Documents/Plans/FDOP/FDOP.pdf  
@@ -41,6 +43,8 @@ https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
 Select Weather> Station Catalog> Station Information> Select ‘Single Station’> Enter in Station ID> Select Output Destination to “Send file to FTP site”> Save .txt file to appropriate folder
 
+***These station catalogs will not appear in FFP until you import weather data.***
+
 **2.	Importing the Station Catalog:**
 
 - On the Data menu> Select Import> Select WIMS Station Catalogs> Select the appropriate .txt file> 
@@ -52,18 +56,23 @@ Select Weather> Station Catalog> Station Information> Select ‘Single Station�
 ---
 NOTE: It is helpful to create and maintain a running master spreadsheet for current and future weather exports.
 
-**1.	Download weather data from:**
+**1.	Downloading weather data from:**
+***KCFAST***
 
 https://fam.nwcg.gov/fam-web/kcfast/mnmenu.htm
 
 - Select Weather> Data Extract> Historical> Enter in Station ID and date range> Select ‘Raw Datafile – 1998 Data Format> Save .fw9 file to appropriate folder. The file can be downloaded from either http://fam.nwcg.gov/fam-web/kcfast/batchout/?M=D or ftp://ftp2.fs.fed.us/incoming/wo_fam-
 - <b>UDATED</b> FFP4.2: Select Weather > Data Extract> Historical> Enter Station ID and Date Range> Select Hourly> Run It Now> Save with 'Station#''Hourly'.fw13.
 
+***CEFA***
+
+https://cefa.dri.edu/raws/index.php
+
+- Enter in station ID and select "Locate FW13 File" > select link below.
+
 **2.	Importing the  Weather Data:**
 
-- From the Data Menu> Select Import> Select Old Wx Import> The Selected Fields should include: Station ID, Obs Date, Obs Time, Obs Type, OMC10, RH, and Windspeed> Select the StationID Box> Select Overwrite Duplicates.  
-- UPDATED: Select Data> Import> Generic Wx> upload your .fw9 files.
-- <b>UPDATED FFP4.2</b>: Select Data> Import> FW9/FW13 Files upload each stations .fw13.
+- Select Data> Import> FW9/FW13 Files upload each stations .fw13.
 
 **3.	Missing Records:**
 
@@ -350,7 +359,7 @@ This bit of text can be typed into the Pocket card window.  All other descriptiv
 The bit map for each FDRA is already created:
 _X://projectdata>master_data>Coastal.bmp_
 
-Under the ‘Fire Danger Area’ enter in the region (i.e. coastal or inland), the RAWS located in the region, 
+Under the ‘Fire Danger Area’ enter in the region (i.e. coastal or inland), the RAWS located in the region.
 
 ###Updating the FDOP Annually###
 ---
