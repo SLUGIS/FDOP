@@ -235,23 +235,26 @@ MUST BE IN THIS ORDER!!!!
 
 ###Stats Graphs###
 ---
+
+####When working with graphs it is important to remember that there are Threshold and there are Breakpoints. Breakpoints are determined solely on weather, whereas, Thresholds are based on the relationship between weather and fire data. Breakpoints can be determined by taking the value at the 90th percentile, dividing it by two, the dividing that product by two again. ####
+
 **1.	Fire Occurrence graphs**
 
-- One including All FDRAs: Coastal, Inland, and other
+- One including All FDRAs
 - One each for specific FDRA's
-    - ‘Fires’>’Summary’>’Working Set’>Select the ‘CAL FIRE’ Tab>Region ‘3RSS’> Unit ‘SLU San Luis Obispo’>Sub Unit ‘COASTAL Coastal’> ‘Ok’
-- Annual Filter should be set for the entire calendar year for these graphs. 
+    - FOR EXAMPLE: ‘Fires’>’Summary’>’Working Set’>Select the ‘CAL FIRE’ Tab>Region ‘3RSS’> Unit ‘SLU San Luis Obispo’>Sub Unit ‘COASTAL Coastal’> ‘Ok’
+- Annual Filter should be set for fire season for these graphs. 
 - Screen Shot the graph and insert into FDOP
 - Complete the Steps above for each Sub Unit.
-All fire occurrence graphs need to be based on the entire calendar year.
+
 
 
 **2.	Determining Thresholds**  
-For each FDRA the thresholds need to be determined.  The program will do this for you however; you need to confirm that the default percentage values for the thresholds are indeed accurate after all climatology statistics graphs have been run.  The given percentages should coincide with the data output of the fire analysis. 
+For each FDRA the thresholds need to be determined.  The program will do this for you however; you need to confirm that the default percentage values for the thresholds are indeed accurate after all climatology statistics graphs have been created.  The given percentages should coincide with the data output of the fire analysis. 
 
 	- 'Fires'>'Fires Analysis'>Selecct desired options>'OK'
- 	- Close out first window that opens, then the 'DP' buttom will appear on top toolbar, click this then choose class levels 
-	(some trial and error will happen to get your classes and percent days working well)
+ 	- Close out first window that opens, select the Fires Probability Analysis window, select 'DP' at top toolbar, enter in choose class levels 
+	
   
 **3.	Three indice graphs for each FDRA**
 
@@ -286,11 +289,9 @@ NOTE: All Decision Point graphs need to be based on Fire season (May1-Oct 31), n
 
 **5. 	Determining Start of Fire Season
 
-NOTE: These graphs need to be based on the entire calendar year
--  (need to add instructions on this process)
--  For SLU, by FDRA we determined best fit with;
-			Coastal:Fuel Model A with ERC
-			Inland: Fuel Model N with ERC
+NOTE: These graphs need to be based on the entire calendar year. This analysis may require that a single SIG for the entire unit be created to perform analysis. 
+- ERC may be the best indice to draw conclusions from.
+
 
 **6.	When updating numbers and percent values in FDOP**
 
