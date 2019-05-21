@@ -1,4 +1,4 @@
-FDOP guide
+FDOP guide (http://slocountyfire.org/FDOP/)
 =============
 ####*Fire Danger Operating Plan information & material*
 
